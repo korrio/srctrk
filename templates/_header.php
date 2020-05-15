@@ -50,6 +50,7 @@
     <!-- <script src="http://www.w3schools.com/lib/w3data.js"></script> -->
     <!-- jQuery -->
     <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
     <style>
     body .navbar-header {
         background: #fff;
@@ -61,10 +62,17 @@
     </style>
     <script>
         <?php if(isset($_GET['demo'])) { ?>
-            const demo = true;
-        <?php } else { ?>
-            const demo = false;
+              <?php if($_GET['demo'] == "1") { ?>
+                const demo = "true";
+            Cookies.set('demo', '' + demo);
+            
+            <?php } else { ?>
+            const demo = "false";
+            Cookies.set('demo', '' + demo);
+             <?php } ?>
         <?php } ?>
+
+        
     </script>
 </head>
 

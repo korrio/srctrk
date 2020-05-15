@@ -9,7 +9,9 @@
 
 	var globAdminAddress = "0x5b8Abd4A6BE20457462C58bF689ddEa02bAEC366";
 
-	if (demo) {
+
+	var isDemo = Cookies.get('demo');
+	if (isDemo == "true") {
 	    var globIcoAddress = {
 	        /*'old-CoffeeMain': "0xfA171Cda184d815D20a318fCe9920AafdC04934e",
 	        'old-CoffeeUser': "0x26d723acFe39f93A9702592dD9371851f81cF59F",*/
