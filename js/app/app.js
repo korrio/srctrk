@@ -1,13 +1,25 @@
+	// var globIcoAddress = {
+	// 	/*'old-CoffeeMain': "0xfA171Cda184d815D20a318fCe9920AafdC04934e",
+	// 	'old-CoffeeUser': "0x26d723acFe39f93A9702592dD9371851f81cF59F",*/
+		
+	// 	'CoffeeMain': "0x8b8d530a2dc78092fb2275d8c5cdf97c3e46120e",
+	// 	'CoffeeUser': "0xe4e7bce4bdaf8cebddd76ccb0ab9fce2fc706e62",
+	// 	'Storage': "0x4b1d9f8be5347ae962b62b1f7499c50a6a598331"
+	// };
+
+	// var globAdminAddress = "0xab0874cB61D83F6B67Dc08141568868102233bef";
+
 	var globIcoAddress = {
 		/*'old-CoffeeMain': "0xfA171Cda184d815D20a318fCe9920AafdC04934e",
 		'old-CoffeeUser': "0x26d723acFe39f93A9702592dD9371851f81cF59F",*/
 		
-		'CoffeeMain': "0x8b8d530a2dc78092fb2275d8c5cdf97c3e46120e",
-		'CoffeeUser': "0xe4e7bce4bdaf8cebddd76ccb0ab9fce2fc706e62",
-		'Storage': "0x4b1d9f8be5347ae962b62b1f7499c50a6a598331"
+		'CoffeeMain': "0x9959d6649Eeb2940802c0670e3E58e63B3C81714",
+		'CoffeeUser': "0x7b7050d9aF51E338eC6BDCf4206c69EE347e3CC5",
+		'Storage': "0xBD720F1c9819c8CA107d0F0a4dE0d2dc8839Fcbf"
 	};
 
-	var globAdminAddress = "0xab0874cB61D83F6B67Dc08141568868102233bef";
+	var globAdminAddress = "0x5b8Abd4A6BE20457462C58bF689ddEa02bAEC366";
+	
 	var globMainContract = false;
 	var globUserContract = false;
 	var globCoinbase = false;	
@@ -38,9 +50,9 @@
 
 			if(currentPanel == "admin.php")
 			{
-				if(address != globAdminAddress){
-					window.location = "index.php";
-				}
+				// if(address != globAdminAddress){
+				// 	window.location = "index.php";
+				// }
 			}
 		});
 

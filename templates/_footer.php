@@ -1,5 +1,5 @@
         <footer class="footer text-center"> 
-            © <?php echo date('Y');?> Coffee SupplyChain by <a href="http://www.imperialsoftech.com/" target="_blank">imperialsoftech.com</a> 
+            © 2020 SupplyChain Traceability by <a href="https://exp.tch.in.th" target="_blank">THAICHAIN</a> 
         </footer>
         </div>
         <!-- /#page-wrapper -->

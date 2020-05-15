@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" sizes="16x16" href="plugins/images/imperialsofetch.png">
-    <title>Imperial Softech</title>
+    <title>sourcetrack.co</title>
     <!-- Bootstrap Core CSS -->
     <link href="plugins/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css" rel="stylesheet">
@@ -18,6 +18,15 @@
     <link href="css/style.css" rel="stylesheet">
     <!-- color CSS -->
     <link href="css/colors/blue.css" id="theme" rel="stylesheet">
+
+    <style>
+        body .login-register {
+            /*background-image:url("https://images.unsplash.com/photo-1524350876685-274059332603?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80") !important;*/
+            background-image:none !important;
+        }
+        
+    </style>
+
 </head>
 
 <body>
@@ -31,18 +40,20 @@
                     <div class="form-group text-center">
                         <div class="col-xs-12">
                              <!-- <img src="dist/images/imperialsofetch.png"/> -->
-                             <img src="plugins/images/coffee-supplychain.png" style="width: 225px; height: 225px;" />
+                             <img src="plugins/images/logo.png" style="width: 175px; height: 225px;" />
                         </div>
                     </div>
                     <div class="form-group  text-center">
                         <div class="col-xs-12">
-                           <h4><b>Welcome to Coffee Supplychain</b></h4>
-                            <h6>Supplychain using Ethereum smart contract, web3 and many more.</h6>
+                           <h4><b>Welcome to sourcetrack.co</b></h4>
+                            <h6>Agricultural Supplychain Traceability</h6>
+                            <!-- <img width="240px" src="plugins/images/thaichain.png" /> -->
+
                         </div>
                     </div>
                     <div class="form-group text-center">
                         <div class="col-xs-6 p-b-20">
-                            <a href="https://metamask.io/" target="_blank" class="btn btn-rounded btn-block btn-primary">Get MetaMask</a>
+                            <a href="admin.php" target="_blank" class="btn btn-rounded btn-block btn-primary">Admin</a>
                         </div>
                          <div class="col-xs-6 p-b-20">
                             <a href="user.php" class="btn btn-rounded btn-block btn-info">Log In</a>
