@@ -59,6 +59,13 @@
         color: #252525;
     }
     </style>
+    <script>
+        <?php if(isset($_GET['demo'])) { ?>
+            const demo = true;
+        <?php } else { ?>
+            const demo = false;
+        <?php } ?>
+    </script>
 </head>
 
 <body>
