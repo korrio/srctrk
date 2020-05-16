@@ -24,10 +24,6 @@
 	    var globAdminAddress = "0xab0874cB61D83F6B67Dc08141568868102233bef";
 	}
 
-	if(isDong) {
-		var globAdminAddress = "0xC33e06E908417377873E54BBB04531c82C67903a";
-	}
-
 	var globMainContract = false;
 	var globUserContract = false;
 	var globCoinbase = false;
