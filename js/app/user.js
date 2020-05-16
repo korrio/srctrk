@@ -28,6 +28,8 @@ $(window).on("coinbaseReady", function ()
 
       globCurrentUser = data ;
 
+      console.log(data);
+
       if(data.isActive == true){
         if(data.name.trim().length <=0 && 
            data.contactNo.trim().length <=0 && 
