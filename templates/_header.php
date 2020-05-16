@@ -72,6 +72,10 @@
              <?php } ?>
         <?php } ?>
 
+         <?php if(isset($_GET['dong'])) { ?>
+            const isDong = true;
+         <?php } ?>
+
         
     </script>
 </head>
