@@ -38,10 +38,11 @@
 
 	    if (typeof web3 !== 'undefined') {
 	        web3 = new Web3(web3.currentProvider);
-	        // web3 = new Web3("https://rinkeby.infura.io/8U0AE4DUGSh8lVO3zmma");
+	        
 	    } else {
 	        // set the provider you want from Web3.providers
-	        web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+	        //web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+	        web3 = new Web3("https://rinkeby.infura.io/v3/b79e40246efe4947854d27a5781980bb");
 	    }
 
 	    getCurrentAccountAddress((address) => {
@@ -80,7 +81,7 @@
 
 	        if (err) {
 	            console.log('An error occurred ' + err);
-	        } else if (accounts.length == 0) {
+	        } else if (accounts.length == 0 && typeof web3 === 'undefined') {
 	            sweetAlert('Error', 'Please login to MetaMask..!', 'error');
 	            $("#currentUserAddress").html("0x0000000000000000000000000000000000000000");
 	        } else {
